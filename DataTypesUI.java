@@ -1,8 +1,8 @@
-package com.java.basics;
+package com.Java.Basics;
 
 import java.util.Scanner;
 
-public class datatypesUI {
+public class DataTypesUI {
     public static void main(String[] args) {
 
         Scanner scn = new Scanner(System.in);
