@@ -1,12 +1,12 @@
-package com.Java.Basics;
+package com.bridgelabz.javabasics;
 
 import java.util.Scanner;
 
 public class CollegeGradeSystem {
     public static void main(String[] args) {
-        Scanner scn = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Enter your percentage to get your Grade : ");
-        float percentage = scn.nextFloat();
+        float percentage = scanner.nextFloat();
 
         if (percentage >= 75 && percentage < 100) {
             System.out.println("Your Grade is First Division with Distinction");

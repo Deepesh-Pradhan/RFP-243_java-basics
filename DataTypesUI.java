@@ -1,30 +1,30 @@
-package com.Java.Basics;
+package com.bridgelabz.javabasics;
 
 import java.util.Scanner;
 
 public class DataTypesUI {
     public static void main(String[] args) {
 
-        Scanner scn = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         // there are 8 types of data types
         // we will take all data types value from user
         System.out.print("Take input for byte datatype : ");
-        byte a = scn.nextByte();
+        byte a = scanner.nextByte();
         System.out.print("Take input for short datatype : ");
-        short b = scn.nextShort();
+        short b = scanner.nextShort();
         System.out.print("Take input for int datatype : ");
-        int num = scn.nextInt();
+        int num = scanner.nextInt();
         System.out.print("Take input for long datatype : ");
-        long number = scn.nextLong();
+        long number = scanner.nextLong();
         System.out.print("Take input for float datatype : ");
-        float desimal = scn.nextFloat();
+        float desimal = scanner.nextFloat();
         System.out.print("Take input for double datatype : ");
-        double Desimal = scn.nextDouble();
+        double Desimal = scanner.nextDouble();
         System.out.print("Take input for Char datatype : ");
-        char name = scn.next().charAt(0);
+        char name = scanner.next().charAt(0);
         System.out.print("Take input for Boolean datatype : ");
-        boolean condition = scn.hasNextBoolean();
+        boolean condition = scanner.hasNextBoolean();
 
 
         System.out.println("Input for byte Datatype : " + a);
